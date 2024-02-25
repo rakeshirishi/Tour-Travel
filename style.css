@@ -177,3 +177,55 @@ header.sticky {
     background: transparent;
     backdrop-filter: blur(35px);
 }
+
+/* categories section  */
+
+.categories .home-text{
+    padding: 80px 2% 60px;
+}
+.categories h1{
+    font-size: var(--h2-font);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.categories-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.row-img {
+    overflow: hidden;
+    width: 180px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    /* border: 5px solid orangered; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.7s;
+}
+
+.row-img img:hover {
+    transform: scale(1.2);
+}
+
+.categories-content h4 {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.categories-content h4:hover {
+    color: var(--main-color);
+}
