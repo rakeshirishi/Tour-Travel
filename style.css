@@ -364,3 +364,10 @@ header.sticky {
     line-height: 1;
     margin-top: 10px;
 }
+.copyright p {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    font-size: 15px;
+    color: #979797;
+}
