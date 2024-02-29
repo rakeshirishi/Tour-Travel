@@ -295,7 +295,128 @@ header.sticky {
 
 
 
+/* newsletter section  */
 
+.newsletter-content {
+    background: var(--main-color);
+    padding: 50px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.newsletter-text h2 {
+    font-size: var(--h2-font);
+    font-weight: 600;
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.newsletter-text p {
+    font-size: var(--p-font);
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.newsletter-content form {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    gap: 1rem;
+}
+
+.newsletter-content form input:first-child {
+    padding: 15px;
+    background: #202020;
+    font-size: var(--p-font);
+    color: var(--text-color);
+    border-radius: 5px;
+}
+
+.newsletter-content i{
+    font-size: 40px;
+}
+.btn1{
+    background: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    width: 60px;
+}
+
+.btn1:hover {
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+    background: transparent;
+}
+
+/* footer section  */
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 2rem;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-box p{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.footer-box a {
+    color: #979797;
+    margin-bottom: 0.8rem;
+    transition: all .5s easei7;
+}
+
+.footer-box a:hover {
+    transform: translateX(-5px);
+    color: var(--text-color);
+}
+
+.social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background: #202020;
+    color: var(--text-color);
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    transition: transform .6s;
+}
+
+.social a:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: translateX(-4px);
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    font-size: 15px;
+    color: #979797;
+}
 
 /* footer section  */
 
